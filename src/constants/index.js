@@ -81,20 +81,8 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
     name: "Node JS",
     icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
   },
   {
     name: "Three JS",
@@ -104,69 +92,46 @@ const technologies = [
     name: "git",
     icon: git,
   },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
+  // {
+  //   name: "figma",
+  //   icon: figma,
+  // },
+  // {
+  //   name: "docker",
+  //   icon: docker,
+  // },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
+    title: "FullStack Web Developer",
+    company_name: "Felix Solutions.Ai",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "March 2023 - May 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed a Financial Software Analysis tool which has the capability to manage all the types of expenses of Company",
+      ,"Implemented A Realtime Dashboard that shows a company's status:Profit or Loss,statistical data about projects,employees etc."
+      ,"It also depicts a Dynamic Graph on the expenses spent each month in the company",
+      "Frameworks used: ReactJS,NodeJs,ExpressJs, Database: Postgre Sql."
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
+    title: "Research Intern",
+    company_name: "IIT Hyderabad",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Sept 2022 - Dec 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Model: Prediction of Heart Patients joining a Rehabilitation Program. Built a model which predicts whether a",
+"patient who has undergone a heart surgery, shall join the rehabilitation program",
+"designed by the Hospital Authority. Used concepts of EDA and Random Forest Classifier to successfully",
+"predict the output with an Accuracy of 76%.",
+"Learnt Concepts of Linear Regression , Cost sensitive Linear Regression,Logistic",
+"Regression and Decision Trees,Random Forests."
+
     ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+  }
 ];
 
 const testimonials = [
@@ -198,30 +163,38 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Financial Analysis Tool",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based platform that allows a company to manage its expenses easily and reduces the need of excel sheets. Its Expenses can be properly visualised and proper insights can be gathered and they can be managed efficiently",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Nodejs",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "ExpressJs",
         color: "pink-text-gradient",
+      },
+      {
+        name: "Postgre Sql",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "RestApi",
+        color: "green-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/VARUNvk1729/Financial-Software-Management",
   },
   {
-    name: "Job IT",
+    name: "Jobby Application",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A simple Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
     tags: [
       {
         name: "react",
@@ -237,28 +210,76 @@ const projects = [
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://mdrjobs.ccbp.tech/login/",
   },
+  ,
   {
-    name: "Trip Guide",
+    name: "Eamcet College Predictor Tool",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Built College Predictor Tool based on Eamcet rank using Python ,Web Server, My Sql database. This tool predicts the list of colleges that a student is eligible to get an admission into, based on several aspects such as Branch, Caste, Gender and various permutations among these aspects",
     tags: [
       {
-        name: "nextjs",
+        name: "Python",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "WebServer",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "MySQL",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Tkinter",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: tripguide,
+    source_code_link: "https://github.com/dynamic-007/EamcetCollegePredictor",
+  },
+  {
+    name: "FoodMunch",
+    description:
+      "Developed a responsive website for Food Store where users can see a list of food items, detailed information about a food item, offers by using bootstrap embed and model components. ",
+    tags: [
+      {
+        name: "ReactJS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "JavaScript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "CSS,HTML",
         color: "pink-text-gradient",
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://mdrfoodhouse.ccbp.tech/",
+  },
+  ,
+  {
+    name: "Todos Application",
+    description:
+      "Effortless task management through JavaScript-based CRUD operations with dynamic UI updates.",
+    tags: [
+      {
+        name: "JavaScript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Html",
+        color: "green-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tripguide,
+    source_code_link: "https://mdrtodos.ccbp.tech/",
   },
 ];
 
