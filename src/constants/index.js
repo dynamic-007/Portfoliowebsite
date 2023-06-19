@@ -1,3 +1,7 @@
+import finance from '../assets/finance.png'
+import todo from '../assets/todo.png'
+import food from '../assets/food.png'
+import college from '../assets/college.png'
 import {
   mobile,
   backend,
@@ -19,10 +23,9 @@ import {
   starbucks,
   tesla,
   shopify,
-  carrent,
   jobit,
-  tripguide,
   threejs,
+  tripguide
 } from "../assets";
 
 export const navLinks = [
@@ -42,20 +45,13 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
-    icon: web,
+    title: "Full Stack Web Developer",
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
+    title: "Machine Learning Enthusiast",
   },
   {
-    title: "Backend Developer",
-    icon: backend,
-  },
-  {
-    title: "Content Creator",
-    icon: creator,
+    title: "Backend Development",
   },
 ];
 
@@ -106,7 +102,6 @@ const experiences = [
   {
     title: "FullStack Web Developer",
     company_name: "Felix Solutions.Ai",
-    icon: starbucks,
     iconBg: "#383E56",
     date: "March 2023 - May 2023",
     points: [
@@ -119,7 +114,6 @@ const experiences = [
   {
     title: "Research Intern",
     company_name: "IIT Hyderabad",
-    icon: tesla,
     iconBg: "#E6DEDD",
     date: "Sept 2022 - Dec 2022",
     points: [
@@ -188,7 +182,7 @@ const projects = [
         color: "green-text-gradient",
       },
     ],
-    image: carrent,
+    image:finance,
     source_code_link: "https://github.com/VARUNvk1729/Financial-Software-Management",
   },
   {
@@ -235,7 +229,7 @@ const projects = [
         color: "blue-text-gradient",
       },
     ],
-    image: tripguide,
+    image: college,
     source_code_link: "https://github.com/dynamic-007/EamcetCollegePredictor",
   },
   {
@@ -256,7 +250,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: food,
     source_code_link: "https://mdrfoodhouse.ccbp.tech/",
   },
   ,
@@ -278,7 +272,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: todo,
     source_code_link: "https://mdrtodos.ccbp.tech/",
   },
 ];
